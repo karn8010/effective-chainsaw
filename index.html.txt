@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Work</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        main {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            color: #4CAF50;
+        }
+
+        .work-item {
+            background-color: #fff;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Student Work</h1>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <p>Welcome to the Student Work website! This platform showcases projects, assignments, and creative works completed by students. Explore and get inspired by their amazing efforts!</p>
+        </section>
+
+        <section id="work">
+            <h2>Featured Work</h2>
+
+            <div class="work-item">
+                <h3>Project Title 1</h3>
+                <p>Description of the first project. It involves topics like HTML, CSS, and JavaScript.</p>
+            </div>
+
+            <div class="work-item">
+                <h3>Project Title 2</h3>
+                <p>Description of the second project. This one showcases Python programming and data analysis.</p>
+            </div>
+
+            <div class="work-item">
+                <h3>Project Title 3</h3>
+                <p>Description of the third project. A group assignment focused on teamwork and problem-solving.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Student Work. All rights reserved.</p>
+    </footer>
+</body>
+</html>
